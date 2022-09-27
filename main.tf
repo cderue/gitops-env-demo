@@ -49,7 +49,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
     node_count = var.agent_count
   }
   linux_profile {
-    admin_username = "ubuntu"
+    admin_username = "ubuntuadmin"
 
     ssh_key {
       key_data = file(var.ssh_public_key)
