@@ -1,19 +1,3 @@
-variable tenant_id {
-  default = ""
-}
-
-variable subscription_id {
-  default = ""
-}
-
-variable client_id {
-  default = ""
-}
-
-variable client_secret {
-  default = ""
-}
-
 # The following two variable declarations are placeholder references.
 # Set the values for these variable in terraform.tfvars
 variable "aks_service_principal_app_id" {
@@ -30,6 +14,10 @@ variable "cluster_name" {
 
 variable "dns_prefix" {
   default = "k8stest"
+}
+
+variable "agent_count" {
+  default = 2
 }
 
 # Refer to https://azure.microsoft.com/global-infrastructure/services/?products=monitor for available Log Analytics regions.
