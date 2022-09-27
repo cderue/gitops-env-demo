@@ -1,6 +1,17 @@
+variable tenant_id {
+  default = ""
+}
 
-variable "agent_count" {
-  default = 3
+variable subscription_id {
+  default = ""
+}
+
+variable client_id {
+  default = ""
+}
+
+variable client_secret {
+  default = ""
 }
 
 # The following two variable declarations are placeholder references.
