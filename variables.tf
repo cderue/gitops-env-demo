@@ -17,7 +17,7 @@ variable "dns_prefix" {
 }
 
 variable "agent_count" {
-  default = 4
+  default = 2
 }
 
 # Refer to https://azure.microsoft.com/global-infrastructure/services/?products=monitor for available Log Analytics regions.
